@@ -1,0 +1,25 @@
+{
+  "name": "ts-piscine",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/remimoul/ts-piscine#readme",
+  "bugs": {
+    "url": "https://github.com/remimoul/ts-piscine/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remimoul/ts-piscine.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
