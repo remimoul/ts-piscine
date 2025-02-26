@@ -1,4 +1,6 @@
 import { premierElement } from "./s2/ep1/generics";
+import { premierElementep2 } from "./s2/ep2/generics";
+import { Voiture, getProperty } from "./s2/ep3/generics";
 
 console.log(
   "tableau string : ",
@@ -15,3 +17,15 @@ console.log(
     { id: 3, name: "pierre" },
   ])
 );
+
+console.log("tableau vide :", premierElementep2<number>([]));
+
+const maVoiture: Voiture = {
+  marque: "Mercedes",
+  modele: "Classe E",
+  annee: 2024,
+};
+
+console.log("ep3 : ", getProperty(maVoiture, "marque"));
+
+console.log("verif key : ", getProperty(maVoiture, "fuel"));
