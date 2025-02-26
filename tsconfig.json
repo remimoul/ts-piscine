@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES6",
+    "noEmitOnError": true,
+    "strict": true,
+    "declaration": true
+  },
+  "files": ["src/app.ts"],
+  "include": ["src"]
+}
