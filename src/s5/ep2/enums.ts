@@ -1,4 +1,4 @@
-enum Direction {
+export enum Direction {
   Nord,
   Sud,
   Est,
