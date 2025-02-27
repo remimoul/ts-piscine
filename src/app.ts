@@ -1,5 +1,15 @@
-import { Animal } from "./s4/ep1/animaux";
+import {
+  Animal,
+  Chien,
+  Chat,
+  faireSeDeplacer,
+  IAnimal,
+} from "./s4/ep2/animaux";
 
-const animal = new Animal("Cafard");
+const cafard = new Animal("Cafard");
+const chien = new Chien("Médor");
+const chat = new Chat("Félix");
 
-console.log(animal.seDeplacer());
+const animaux: IAnimal[] = [cafard, chien, chat];
+
+faireSeDeplacer(animaux);
